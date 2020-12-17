@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.name {
+  font-family: "Roboto Slab", serif;
+  color: lightgrey;
+  font-size: 2;
+  padding: 10px;
+  display: inline-block;
+}
+.name-small {
+  font-family: "Roboto Slab", serif;
+  color: lightgrey;
+  font-size: 1.5;
+  padding: 10px;
+  display: inline-block;
+}
+
+.link {
+  color: lightgrey;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+.link:hover {
+  color: pink;
+}
+
+a:visited {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  color: lightgrey;
+  font-size: 1.5vw;
+}
+
+.navi {
+  display: flex;
+  justify-content: flex-end;
+  display: inline-block;
+  padding: 20px;
+}
+
+.about {
+  position: relative;
+
+  height: 780px;
+  overflow: hidden;
+  width: 100%;
+  color: black;
+  font-family: "Roboto Slab", serif;
+}
+.about img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+}
+
+.left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 21px;
+
+  /* transform: translate(-50%, -400%); */
+}
+
+.top {
+  background-color: rgba(0, 0, 0, 0.233);
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.fab fa-html5 {
+  color: rgb(207, 55, 55);
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: lightgrey;
+  font-family: "Roboto Slab", serif;
+  justify-content: center;
+}
+
+i {
+  color: lightgray;
+  width: 100px;
+  height: 40px;
+  size: 9x;
+  justify-content: center;
+}
+
+i:hover {
+  color: pink;
+}
+
+.credit {
+  color: lightgrey;
+  font-family: "Roboto Slab", serif;
+}
+
+.work {
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+}
