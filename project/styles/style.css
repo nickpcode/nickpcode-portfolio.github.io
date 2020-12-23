@@ -51,7 +51,7 @@ ul li {
 
 .about {
   position: relative;
-
+  margin-top: 107px;
   height: 780px;
   overflow: hidden;
   width: 100%;
@@ -74,14 +74,24 @@ ul li {
 }
 
 .top {
-  background-color: rgba(0, 0, 0, 0.233);
   overflow: hidden;
-}
-
-.sticky {
   position: fixed;
   top: 0;
+  background-color: rgb(0, 0, 0);
   width: 100%;
+  z-index: 900;
+}
+
+.top li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 107px;
 }
 
 .content {
@@ -97,12 +107,14 @@ ul li {
 }
 
 .skills {
+  margin-top: 107px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .contact {
+  margin-top: 107px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -131,8 +143,16 @@ i:hover {
   font-family: "Roboto Slab", serif;
 }
 
+.works {
+  margin-top: 107px;
+}
+
 .work {
   height: 300px;
   width: auto;
   overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }

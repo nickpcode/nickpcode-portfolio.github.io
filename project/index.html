@@ -9,13 +9,14 @@
     <script src="scripts/app.js"></script>
   </head>
   <body>
-    <div class="top">
-      <h1 class="name">Nicholas Pretel:</h1>
+    <div id="top">Blank text</div>
+    <div class="top" >
+      <h1 class="name" >Nicholas Pretel:</h1>
       <h3 class="name-small">Software Engineer</h3>
       <nav class="navi" style="float: right">
         <ul>
           <li>
-            <a class="link" href="#about">About </a>
+            <a class="link" href="#top">About </a>
           </li>
           <li>|</li>
           <li>
@@ -27,58 +28,64 @@
           </li>
           <li>|</li>
           <li>
-            <a class="link" href="#contact">Contact </a>
+            <a class="link" href="#contact" >Contact </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a class="link" href="./Nicholas_Pretel_Resume.pdf" target="blank">Resume </a>
           </li>
         </ul>
       </nav>
     </div>
-    <div class="about">
-      <img src="https://i.imgur.com/jGMB4CA.jpg" style="width: 100%" />
-      <p class="left">Hello, my name is Nick. </br> I am a software engineer passionate about front-end and back-end web
-        design. </br> My love for design stems from a background in architecture and interior
-        design.</p>
-    </div>
-    <p class="credit">Render by: Nicholas Pretel</p>
-    <div class="skills">
-        <h2 class="title">Skills</h2>
-    </br>
-        <div class="icons">
-            <i class="fab fa-html5" style="font-size: 80px;" ></i>
-            <i class="fab fa-css3-alt" style="font-size: 80px;"></i>
-            <i class="fab fa-js" style="font-size: 80px;"></i>
-            <i class="fab fa-react" style="font-size: 80px;"></i>
-            <i class="fab fa-node-js" style="font-size: 80px;"></i>
-            <i class="fab fa-python" style="font-size: 80px;"></i>
-            <i class="fab fa-github" style="font-size: 80px;"></i>
-        </div>
-        <h3 class="title">My skills include: HTML, CSS, Javascript, React, Node.js, Python, Github, Jquery, MongoDB, PostgreSQL, and Heroku</h3>
-    </div>
-    <div class="works">
-        <h2 class="title">Works</h2>
-        <a href="https://nickpcode.github.io/project_1/" target="_blank">
-            <img class="work" src="https://i.imgur.com/47zpBzn.png">
-        </a>
-        <p class="credit">Type Slayer is an online type accuracy game based on the videogame DOOM. It was made using html, css, javascript, and jquery. It was deployed using github pages</p>
-    </br>
-        <a href="https://herosmack.herokuapp.com/heroes/" target="_blank">
-            <img class="work" src="https://i.imgur.com/GjwI7sB.png">
-        </a>
-        <p class="credit">HeroSmack is an online debate page for comic book and anime fans to compare their favorite characters and "talk smack" to other fans. It was made with React for the front-end and MongoDB for storing users and hero information. It was deployed using Heroku.</p>
-    </br>
-        <a href="https://whatabore.herokuapp.com/" target="_blank">
-            <img class="work" src="https://i.imgur.com/esd5fB7.png">
-        </a>
-       <p class="credit"> What-A-Bore is a site built to help suggest things to do for anyone with free-time on their hands! It was built using React for the front end and an extensive use of MongoDB for user authentication and storing tasks. Bootstrap was used for styling. It was deployed using Heroku.</p>
-    </div>
-    <div class="contact">
-        <h2 class="title">Contact</h2>
-        <h3 class="title">Nicholas Pretel</h3>
-        <h4 class="title">Located in New York City, NY</h4>
-        <h4 class="title">npretel@gmail.com</h4>
-        <div class="icons">
-            <a href="https://github.com/nickpcode" target="_blank"><i class="fab fa-github-square" style="font-size: 80px;"></i></a>
-            <a href="https://www.linkedin.com/in/nicholas-pretel/" target="_blank"><i class="fab fa-linkedin" style="font-size: 80px;"></i></a>
-            
+    <div class="main" >
+      <div class="about" id="about">
+        <img src="https://i.imgur.com/jGMB4CA.jpg" style="width: 100%" />
+        <p class="left">Hello, my name is Nick. </br> I am a software engineer passionate about front-end and back-end web
+          design. </br> My love for design stems from a background in architecture and interior
+          design.</p>
+      </div>
+      <p class="credit" id="skills">Render by: Nicholas Pretel</p>
+      <div class="skills" >
+          <h2 class="title" >Skills</h2>
+      </br>
+          <div class="icons">
+              <i class="fab fa-html5" style="font-size: 80px;" ></i>
+              <i class="fab fa-css3-alt" style="font-size: 80px;"></i>
+              <i class="fab fa-js" style="font-size: 80px;"></i>
+              <i class="fab fa-react" style="font-size: 80px;"></i>
+              <i class="fab fa-node-js" style="font-size: 80px;"></i>
+              <i class="fab fa-python" style="font-size: 80px;"></i>
+              <i class="fab fa-github" style="font-size: 80px;"></i>
+          </div>
+          <h3 class="title" id="works">My skills include: HTML, CSS, Javascript, React, Node.js, Python, Github, Jquery, MongoDB, PostgreSQL, and Heroku</h3>
+      </div>
+      <div class="works" >
+          <h2 class="title">Works</h2>
+          <a href="https://nickpcode.github.io/project_1/" target="_blank">
+              <img class="work" src="https://i.imgur.com/47zpBzn.png">
+          </a>
+          <p class="credit">Type Slayer is an online type accuracy game based on the videogame DOOM. It was made using html, css, javascript, and jquery. It was deployed using github pages</p>
+      </br>
+          <a href="https://herosmack.herokuapp.com/heroes/" target="_blank">
+              <img class="work" src="https://i.imgur.com/GjwI7sB.png">
+          </a>
+          <p class="credit">HeroSmack is an online debate page for comic book and anime fans to compare their favorite characters and "talk smack" to other fans. It was made with React for the front-end and MongoDB for storing users and hero information. It was deployed using Heroku.</p>
+      </br>
+          <a href="https://whatabore.herokuapp.com/" target="_blank">
+              <img class="work" src="https://i.imgur.com/esd5fB7.png">
+          </a>
+        <p class="credit"> What-A-Bore is a site built to help suggest things to do for anyone with free-time on their hands! It was built using React for the front end and an extensive use of MongoDB for user authentication and storing tasks. Bootstrap was used for styling. It was deployed using Heroku.</p>
+      </div>
+      <div class="contact" id="contact">
+          <h2 class="title">Contact</h2>
+          <h3 class="title">Nicholas Pretel</h3>
+          <h4 class="title">Located in New York City, NY</h4>
+          <h4 class="title">npretel@gmail.com</h4>
+          <div class="icons">
+              <a href="https://github.com/nickpcode" target="_blank"><i class="fab fa-github-square" style="font-size: 80px;"></i></a>
+              <a href="https://www.linkedin.com/in/nicholas-pretel/" target="_blank"><i class="fab fa-linkedin" style="font-size: 80px;"></i></a>
+              
+          </div>
         </div>
     </div>
   </body>
